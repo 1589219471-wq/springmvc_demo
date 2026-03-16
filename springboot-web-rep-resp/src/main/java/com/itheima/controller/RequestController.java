@@ -21,13 +21,19 @@ public class RequestController {
 public class RequestController {
 
     @RequestMapping("/simpleParam")
-    public String simpleParam(String name,Integer age){
-        System.out.println(name+":"+age);
+    public String simpleParam(String name, Integer age) {
+        System.out.println(name + ":" + age);
 
         return "OK";
     }
 
 
+    @RequestMapping("/simpleParam")
+    public String simpleParam1(String name,Integer age){
+        System.out.println(name+":"+age);
+
+        return "OK";
+    }
     @RequestMapping("/simplePojo")
     public String simplePojo(User user){
         System.out.println(user);
