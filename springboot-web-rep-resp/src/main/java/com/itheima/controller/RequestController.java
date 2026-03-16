@@ -21,7 +21,7 @@ public class RequestController {
 public class RequestController {
 
     @RequestMapping("/simpleParam")
-    public String simpleParam(String name,Integer age){
+    public String simpleParam2(String name,Integer age){
         System.out.println(name+":"+age);
 
         return "OK";

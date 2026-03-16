@@ -3,13 +3,14 @@ package com.itheima.pojo;
 public class User {
     private String name;
     private Integer age;
-
+    private char gender;
     public User() {
     }
 
-    public User(String name, Integer age) {
+    public User(String name, Integer age,char gender) {
         this.name = name;
         this.age = age;
+        this.gender = gender;
     }
 
     /**
