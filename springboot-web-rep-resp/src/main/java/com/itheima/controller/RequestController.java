@@ -6,7 +6,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/*@RestController
+@RestController
 public class RequestController {
 
     @RequestMapping("/simpleParam")
@@ -16,7 +16,7 @@ public class RequestController {
         System.out.println(name+":"+age);
         return "OK";
     }
-}*/
+}
 @RestController
 public class RequestController {
 
